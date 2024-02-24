@@ -13,7 +13,7 @@ export default function App() {
     <NavigationContainer> 
       <Stack.Navigator>
         <Stack.Screen
-         name="HomeScreen."
+         name="HomeScreen"
          component={HomeScreen}
          options={({navigation}) => ({
           title: "Aplicacion de tareas",
